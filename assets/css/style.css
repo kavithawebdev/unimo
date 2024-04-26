@@ -23,6 +23,9 @@
 .text-color-white {
   color: #ffffff;
 }
+.bg-color-yellow{
+  background-color: #f6d53c;
+}
 .bg-color-lite {
   background-color: #f8f8f8;
 }
@@ -35,13 +38,27 @@
 .text-center {
   text-align: center;
 }
+.text-dec{
+  text-decoration: none;
+}
+
+.font-1{
+  font-size:1.5rem ;
+}
+.font-3{
+  font-size:3.5rem;
+}
+
+
+
+
 
 /*menu bar section*/
 .menu-bar-sec {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem 1rem 1rem;
  
 }
 .logo {
@@ -101,6 +118,9 @@ li>.menu-nav:hover{
   position: relative;
 }
 
+.cart-section>li>a:hover{
+  color:#4e319a;
+}
 .wishlist{
     background-color:#4e319a;
     color:#ffffff;
@@ -108,8 +128,86 @@ li>.menu-nav:hover{
     font-size:.75rem;
     position:absolute;
     top:-.75rem;
-
+ padding:.2rem;
 }
 .cart-section > li {
   padding-right: 1rem;
 }
+
+/*support section*/
+ a:hover{
+  color:#808080;
+ }
+
+ .support-section{
+  display:flex;
+  justify-content: space-between;
+  padding: 1rem;
+ }
+
+ /*professional store bg image*/
+
+ .professional-back-image-section{
+   background-image: url("../images/slider-02.jpg");
+   
+ }
+ .image-section{
+   width:100%;
+   /*height:100vh;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+ /* background-position: center;*/
+ position:relative;
+  }
+  .image-left{
+    display:inline-block;
+    padding: 6rem 0 2rem 10rem;
+  }
+  .cap-con{
+    display:flex;
+    gap: 1rem;
+  }
+  .button{
+    padding-top:2rem;
+  }
+.bolt{
+    background-color: #f6d53c;
+    border-radius: 100%;
+    color: black;
+    height: 1rem;
+    padding:1rem;
+}
+  .btn{
+    padding: 1rem 2.5rem;
+    border-radius: 6px;
+    border: transparent;
+    font-weight: 600;
+    background-color: white;
+    
+  }
+  .btn:hover{
+  background-color: black; 
+  color:#f2f2f2;
+
+  }
+  .img-right:hover{
+    color:#f2f2f2;
+  }
+  .text-dec-line{
+    text-decoration: underline #f6d53c .1rem;
+    padding-top: .5rem;
+
+  }
+.back-image-right{
+  display:inline-block;
+}
+.img-right-content{
+  position: relative;
+    left: 75rem;
+    top: -17rem;
+   /* top: 16rem;
+    position: absolute;
+    right: 1rem;*/
+}
+
+/*shop by categroy*/
