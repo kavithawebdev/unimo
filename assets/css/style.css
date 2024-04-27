@@ -41,6 +41,9 @@
 .text-dec{
   text-decoration: none;
 }
+.text-line{
+  text-decoration: line-through;
+}
 
 .font-1{
   font-size:1.5rem ;
@@ -51,8 +54,12 @@
 .font-3{
   font-size:3.5rem;
 }
-
-
+.cursor-default:hover{
+  color:#808080;
+ }
+.cursor-primary:hover{
+  color: #4e319a;
+}
 
 
 
@@ -92,6 +99,9 @@ li>.menu-nav{
 li>.menu-nav:hover{
     color:#4e319a;
 }
+
+
+
 .tag{
     color:#ffffff;
     background-color: red;
@@ -138,9 +148,7 @@ li>.menu-nav:hover{
 }
 
 /*support section*/
- a:hover{
-  color:#808080;
- }
+ 
 
  .support-section{
   display:flex;
@@ -253,3 +261,56 @@ li>.menu-nav:hover{
       color:#f2f2f2;
  }
  */
+
+
+ /*trending product*/
+ 
+.trending-product-section{
+    padding: 2rem;
+}
+.t-p-image-wrapper{
+  display: flex;
+  
+    gap: 3rem;
+    padding: 4rem;
+}
+
+
+
+.t-p-top-section{
+  position:relative;
+  cursor:pointer;
+}
+
+.t-p-img{
+  width:100%;
+  border-radius: .5rem;
+}
+.t-p-top-below-section{
+position: absolute;
+    bottom: 1rem;
+    border-top:.2rem soid #f8f8f8;
+}
+.pad-left{
+  padding-left:1rem;
+}
+.t-p-bag{
+  position: absolute;
+    left: 12rem;
+    bottom: 12rem;
+    border-radius: 100%;
+    border: .02rem solid #f2f2f2;
+    padding: 1rem;
+    background-color: transparent;
+}
+.t-p-content:hover{
+  background-color:#4e319a;
+  color:#f8f8f8;
+}
+.amount{
+  background-color: #f6d53c;
+  border-radius: .2rem;
+}
+.t-p-bottom-section{
+  padding-top:1rem;
+}
