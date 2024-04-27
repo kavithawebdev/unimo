@@ -45,6 +45,9 @@
 .font-1{
   font-size:1.5rem ;
 }
+.font-2{
+  font-size:2.5rem;
+}
 .font-3{
   font-size:3.5rem;
 }
@@ -211,3 +214,42 @@ li>.menu-nav:hover{
 }
 
 /*shop by categroy*/
+/*
+.shop-categroy-section{
+  padding-top:2rem;
+}
+.shop-image-wrapper{
+  display:flex;
+  flex-wrap: wrap;
+  gap:1rem;
+}
+.shop-image-item{
+  display: flex;
+ /* width:20%;
+  background-color: #ffffff;
+ /*  padding: 2rem 0 1rem 2rem;
+    border-radius: 1rem;
+}
+.left-item:hover{
+  color:#4e319a;
+}
+.shop-right-item{
+  padding-top: 2rem;
+  
+}
+.img{
+  width:25%;
+}
+.img-arrow{
+  background-color: white;
+    border-radius: 100%;
+    border: .1rem solid #f2f2f2;
+    padding: 1rem;
+    color:#4e319a;
+  
+}
+ .img-arrow:hover{
+      background-color: #4e319a;
+      color:#f2f2f2;
+ }
+ */
