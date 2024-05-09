@@ -236,7 +236,8 @@ li > .menu-nav:hover {
 .shop-image-wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem 8rem 2rem 8rem;
+  padding: 2rem 6rem 2rem 6rem;
+  justify-content: center;
   gap: 1rem;
 }
 .shop-image-item {
@@ -278,7 +279,7 @@ li > .menu-nav:hover {
 /*trending product*/
 
 .trending-product-section {
-  padding: 2rem;
+  padding: 2rem 2rem 5rem 2rem;
 }
 .t-p-image-wrapper {
   display: flex;
@@ -403,10 +404,11 @@ li > .menu-nav:hover {
 
 .inner-leftside {
   position: absolute;
-  top: 20px;
+  top: 35px;
+    padding-left: 2rem;
 }
 .deal-image:hover{
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 /*newsletter-section*/
@@ -454,14 +456,39 @@ li > .menu-nav:hover {
 .n-l-top-section {
   display: flex;
   justify-content: space-around;
+  padding-top: 5rem;
 }
 .n-l-single-item {
-  width: 15%;
+  
   position: relative;
+  width:46%;
+}
+.n-l-item-content{
+  display:inline-block;
+  
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-evenly;
 }
 
+.n-l-h4{
+text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
 .n-l-product-wrap {
-  padding-top: 5rem;
+  display: flex;
+  width:30%;
+}
+.n-l-bottom-image-section{
+  display: flex;
+gap: 2rem;
+    flex-wrap: wrap;
+    padding: 5rem 4rem 5rem 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 .n-l-img {
   position: absolute;
@@ -473,6 +500,18 @@ li > .menu-nav:hover {
 .n-l-img:hover {
   opacity: 1;
 }
+.bag-btn{
+  padding:.5rem;
+  border-radius: .3rem;
+  cursor:pointer;
+  border: #c8c0c0 .1rem solid;
+
+}
+.bag-btn:hover{
+    background-color: #4e319a;
+    color:#f8f8f8;
+}
+
 
 /*client-review-section*/
 
@@ -532,18 +571,26 @@ li > .menu-nav:hover {
 }
 .blog-image {
   border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+}
+.blog-image:hover{
+  transform: scale(1.05);
 }
 
 .rec-story-content-wrapper {
   gap: 2rem;
   display: flex;
   padding: 4rem;
-  position: relative;
+  
 }
+.rec-story-content-item{
+  position:relative;
+}
+/*
 .rec-story-date {
   position: absolute;
   top: 60px;
-}
+}*/
 
 .date-li {
   display: flex;
@@ -551,6 +598,9 @@ li > .menu-nav:hover {
   background-color: white;
   padding: 0.5rem;
   border-radius: 0.6rem;
+  position: absolute;
+  top: 15px;
+  left:15px;
 }
 .date-num {
   font-size: 1.5rem;
@@ -583,19 +633,31 @@ li > .menu-nav:hover {
   display: inline-block;
 }
 .footer-bottom-section {
+  
   display: flex;
   gap: 1.5rem;
   padding: 0 5rem 2rem 5rem;
   justify-content: space-between;
+  position: relative;
 }
 .footer-shipment-section {
   align-items: center;
   display: flex;
   justify-content: center;
   gap: 1rem;
+
 }
-.ship-icon:hover {
-  transition: all 0.4s ease-in-out 0s;
+.icon a{
+  position:relative;
+  top:0;
+  transition:top ease .5s;
+}
+
+.icon:hover a{
+  
+  top:-10px;
+
+
 }
 .footer-bottom-section {
   border-bottom: 0.1rem solid #e6e3e3;
